@@ -1,0 +1,22 @@
+<?xml version="1.0" ?><xliff version="1.1">
+  <file datatype="php" original="system/modules/tinypng/languages/en/default.php" source-language="en">
+    <body>
+      <trans-unit id="ERR.tinypng">
+        <source>The file %s could not be compressed using TinyPNG!</source>
+        <target>Die Datei %s konnte aufgrund eines Fehlers nicht mit TinyPNG verkleinert werden!</target>
+      </trans-unit>
+      <trans-unit id="MSC.tinypng_compress_bad">
+        <source>TinyPNG did not do a better job on compressing the file %s.</source>
+        <target>TinyPNG konnte bei der Datei %s keine bessere Kompression erreichen.</target>
+      </trans-unit>
+      <trans-unit id="MSC.tinypng_compress_good">
+        <source>The file %s has been successfully compressed using TinyPNG and shrunk from %d kb to %d kb.</source>
+        <target>Die Datei %s wurde erfolgreich mit TinyPNG von %d kb auf %d kb verkleinert.</target>
+      </trans-unit>
+      <trans-unit id="MSC.tinypng_missing_key">
+        <source>To use the TinyPNG compression you first need to set your API key in the Contao settings.</source>
+        <target>Um TinyPNG nutzen zu können müssen Sie erst einen API Schlüssel in den Contao Einstellungen hinterlegen.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
