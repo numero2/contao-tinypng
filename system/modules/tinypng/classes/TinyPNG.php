@@ -70,10 +70,14 @@ class TinyPNG {
 		// check if we got a positive response
 		if( !empty($request->headers['Location']) ) {
 
-			$newImageData = file_get_contents($request->headers['Location']);
+			// get compressed image
+			$ri = new \Request();
+			$ri->send($request->headers['Location']);
+
+			$newImageData = $ri->response;
 
 			// check if compressed image is smaller than original
-			if( strlen($newImageData) < $file->size ) {
+			if( strlen($newImageData) && strlen($newImageData) < $file->size ) {
 
 				file_put_contents(
 					TL_ROOT.'/'.$image,
