@@ -1,7 +1,19 @@
-contao-tinypng
+Contao TinyPNG
 =======================
 
-Processes all uploaded PNG images using tinypng.org's image optimizer.
-Please note: You need an API key from TinyPNG.org which can be set in the Contao settings.
+About
+--
+Automatically optimizes all uploaded PNG and JPEG images using [tinypng.com](https://tinypng.com)'s image optimizer.
 
-Requires Contao >= 3.2.5
+System requirements
+--
+
+* [Contao](https://github.com/contao/core) 3.2.5 or newer
+* [TinyPNG API key](https://tinypng.com/developers)
+
+Installation & Configuration
+--
+
+* Create a folder named `tinypng` in `system/modules`
+* Clone this repository into the new folder
+* Obtain an API key and enter it into the System Settings under `Upload settings`

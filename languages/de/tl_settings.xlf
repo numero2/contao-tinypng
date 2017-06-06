@@ -1,14 +1,14 @@
 <?xml version="1.0" ?><xliff version="1.1">
-  <file datatype="php" original="system/modules/tinypng/languages/en/tl_settings.php" source-language="en">
-    <body>
-      <trans-unit id="tl_settings.tinypng_api_key.0">
+<file datatype="php" original="system/modules/tinypng/languages/en/tl_settings.php" source-language="en">
+<body>
+    <trans-unit id="tl_settings.tinypng_api_key.0">
         <source>TinyPNG API key</source>
         <target>TinyPNG API Schlüssel</target>
-      </trans-unit>
-      <trans-unit id="tl_settings.tinypng_api_key.1">
+    </trans-unit>
+    <trans-unit id="tl_settings.tinypng_api_key.1">
         <source>An API key can be obtained from https://tinypng.com/developers.</source>
         <target>Ein API Schlüssel kann unter https://tinypng.com/developers beantragt werden.</target>
-      </trans-unit>
-    </body>
-  </file>
+    </trans-unit>
+</body>
+</file>
 </xliff>
